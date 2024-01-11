@@ -1,0 +1,17 @@
+{
+  "name": "polgo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "dev:watch": "nodemon src/index.js"
+  },
+  "author": "Jakub",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "better-sqlite3": "^9.2.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+}
